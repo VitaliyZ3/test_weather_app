@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.python-version
+*.db
+
+# Virtual environment
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+
+# Environment variables
+.env
+
+# Data storage
+data/*
+!data/.gitkeep   # keep folder structure
+
+# SQLite DB
+*.sqlite3
+weather_logs.db
+
+# Docker
+*.tar
+*.pid
+
+# Logs
+*.log
+
+# Cache
+.cache/
+pip-wheel-metadata/
+pip-selfcheck.json
+
+# Test artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Byte-compiled
+*.so
+*.dll
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+# Distribution packages
+build/
+dist/
+*.egg-info/
